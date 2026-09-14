@@ -51,7 +51,7 @@ graph TD
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/siki-app.git
+   git clone https://github.com/eshreef1/siki.git
    ```
 2. Open the project in **Android Studio**.
 3. Connect your project to Firebase:
