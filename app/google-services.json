@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "667184015476",
+    "firebase_url": "https://help-e2d41.firebaseio.com",
+    "project_id": "help-e2d41",
+    "storage_bucket": "help-e2d41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667184015476:android:36aebbe685e0635ae74921",
+        "android_client_info": {
+          "package_name": "com.eshreef.help"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667184015476-tphjib9pv6u0h78m0njfru4iasq4nbbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eshreef.help",
+            "certificate_hash": "ffa187c8521a5acbf469ba9786eec77d689deda5"
+          }
+        },
+        {
+          "client_id": "667184015476-1724iks8o4u2nm3bp73o2007204pcbni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOeEUnDKChnIvlXlMs0lAfYJA0uA0cKVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667184015476-1724iks8o4u2nm3bp73o2007204pcbni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

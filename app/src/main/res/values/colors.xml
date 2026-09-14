@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="singup">#293C8F</color>
+    <color name="singin">#212B57</color>
+
+    <color name="overbackgroud">#484D61</color>
+    <color name="actionbar">#130D0D</color>
+    <color name="overlaybackgorund">#333446</color>
+    <color name="overlayactionbar">#303042</color>
+
+
+</resources>

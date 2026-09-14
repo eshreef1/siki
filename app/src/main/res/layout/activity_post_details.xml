@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="4dp"
+    tools:context=".PostDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/image_post"
+            android:scaleType="centerCrop"
+            android:background="@drawable/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:id="@+id/med_post_name"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:transitionName="loading"
+            android:layout_height="wrap_content"
+            android:text="medson name"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/med_post_detils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:text="Loading"
+        android:gravity="center"
+        android:textSize="40dp"
+
+        />
+</androidx.cardview.widget.CardView>

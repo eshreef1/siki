@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home"
+
+        android:title="الرئيسية"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:actionLayout="@layout/fragment_home2"
+        />
+
+    <item
+        android:id="@+id/mental_list"
+
+        android:title="انواع الامراض"
+        android:icon="@drawable/mental"/>
+    <item
+    android:id="@+id/medson"
+
+    android:title="الادوية"
+    android:icon="@drawable/vitamins"/>
+    <item
+        android:id="@+id/message"
+
+        android:title="تواصل معانا"
+        android:icon="@drawable/messgs"/>
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Desis_detils">
+
+    <ImageView
+        android:id="@+id/des_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/de_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/des_image"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:text="name"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/de_Descraption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/de_name"
+        android:textStyle="bold"
+        android:text="وصف"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+
+        />
+
+</RelativeLayout>

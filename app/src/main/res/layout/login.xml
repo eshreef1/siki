@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_centerInParent="true"
+       android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/log_img"
+            android:src="@mipmap/mental_foreground"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+       <TextView
+           android:id="@+id/log_text"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:gravity="center"
+           android:text="@string/log_text"
+           android:textColor="@android:color/white"
+           android:textSize="20dp" />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/singup"
+            android:width="1dp"
+            android:text="تسجيل كمستخدم جديد"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            tools:shadowEnabled="true"
+            tools:shadowHeight="5dp"
+            tools:cornerRadius="4dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:layout_margin="8dp"
+
+
+            android:background="@color/singup"
+
+
+            />
+        <Button
+            android:id="@+id/singin"
+            android:width="1dp"
+            android:text="تسجيل الدخول"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            tools:shadowEnabled="true"
+            tools:shadowHeight="5dp"
+            tools:cornerRadius="4dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:layout_margin="8dp"
+
+
+            android:background="@color/singin"/>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
